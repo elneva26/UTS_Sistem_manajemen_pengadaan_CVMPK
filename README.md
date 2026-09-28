@@ -70,7 +70,7 @@ Pada menu kelola data barang, terdapat beberapa pilihan yang dapat dipilih oleh 
 
 -> Tambah Data Barang
 
-<img width="714" height="488" alt="image" src="https://github.com/user-attachments/assets/5227d506-e348-4eb9-a72b-0d37c0878d59" />
+<img width="300" height="488" alt="image" src="https://github.com/user-attachments/assets/5227d506-e348-4eb9-a72b-0d37c0878d59" />
 
 
 
@@ -119,6 +119,10 @@ Saat fitur tampilkan barang dijalankan, data barang akan secara otomatis dikelom
 
 <img width="300" alt="image" src="https://github.com/user-attachments/assets/bf5c8ecc-40ef-4a44-b3d7-50cfd6fd205a" />
 
+
+-> Uodate Stok
+
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/ac601eea-f44a-44d4-ac6c-56a597507157" />
 
 
 ### **2.2 Kelola Data Pemasok**
