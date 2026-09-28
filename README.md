@@ -114,6 +114,13 @@ Saat fitur tampilkan barang dijalankan, data barang akan secara otomatis dikelom
 
 <img width="300" alt="image" src="https://github.com/user-attachments/assets/6fa48f46-f4e9-43b4-b833-9d554f4fbf63" />
 
+
+-> Hapus Barang
+
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/bf5c8ecc-40ef-4a44-b3d7-50cfd6fd205a" />
+
+
+
 ### **2.2 Kelola Data Pemasok**
 
 Pada menu kelola data pemasok, terdapat beberapa pilihan yang dapat dipilih oleh user yaitu;
