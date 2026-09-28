@@ -338,7 +338,7 @@ Kemudian masing-masing subclass memiliki atribut khusus, yaitu;
 Dengan inheritance, kedua subclass dapat menggunakan atribut dan method yang berasal dari superclass Barang.
 
 
-**6.2 Multilevel Inheritance**
+### **6.2 Multilevel Inheritance**
 
 Selain hierarchical inheritance, program juga menerapkan multilevel inheritance. Multilevel inheritance merupakan pewarisan yang dilakukan secara bertingkat, yaitu sebuah subclass menjadi superclass bagi class berikutnya. Pada program ini, struktur multilevel inheritance diterapkan pada class Barang, BarangElektronik, dan Laptop.
 
