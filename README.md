@@ -68,7 +68,7 @@ Pada menu kelola data barang, terdapat beberapa pilihan yang dapat dipilih oleh 
 <img width="300" alt="image" src="https://github.com/user-attachments/assets/5c668b69-ff34-468e-8c91-8be7f50cf2d9" />
 
 
--> Tambah Data Barang
+-> **Tambah Data Barang**
 
 <img width="300" height="488" alt="image" src="https://github.com/user-attachments/assets/5227d506-e348-4eb9-a72b-0d37c0878d59" />
 
@@ -101,7 +101,7 @@ Proses tersebut menunjukkan penerapan "inheritance multilevel", yaitu objek "Lap
 
 Setelah seluruh data berhasil dimasukkan, program menampilkan pesan "Barang baru berhasil ditambahkan!" sebagai tanda bahwa data telah berhasil disimpan ke dalam "ArrayList".
 
--> Tampilkan Barang
+-> **Tampilkan Barang**
 
 Lalu data barang terbagi ke dalam dua jenis yaitu;
 
@@ -115,12 +115,12 @@ Saat fitur tampilkan barang dijalankan, data barang akan secara otomatis dikelom
 <img width="300" alt="image" src="https://github.com/user-attachments/assets/6fa48f46-f4e9-43b4-b833-9d554f4fbf63" />
 
 
--> Hapus Barang
+-> **Hapus Barang**
 
 <img width="300" alt="image" src="https://github.com/user-attachments/assets/bf5c8ecc-40ef-4a44-b3d7-50cfd6fd205a" />
 
 
--> Update Stok
+-> **Update Stok**
 
 <img width="300" alt="image" src="https://github.com/user-attachments/assets/ac601eea-f44a-44d4-ac6c-56a597507157" />
 
@@ -133,7 +133,7 @@ Pada menu kelola data pemasok, terdapat beberapa pilihan yang dapat dipilih oleh
 
 Data pemasok terdiri dari ID pemasok, nama pemasok, alamat, dan nomor telepon.
 
--> Tambah Pemasok
+-> **Tambah Pemasok**
 
 <img width="300" alt="image" src="https://github.com/user-attachments/assets/2e88f801-c4ee-4c12-bd10-e5fc06e2a077" />
 
@@ -151,19 +151,19 @@ Pada contoh gambar, pengguna memasukkan data pemasok dengan ID 2, nama pemasok C
 
 Setelah seluruh data berhasil dimasukkan, program menampilkan pesan "Pemasok baru berhasil ditambahkan!" sebagai tanda bahwa data pemasok berhasil disimpan ke dalam ArrayList.
 
--> Tampilkan Pemasok
+-> **Tampilkan Pemasok**
 
 <img width="300" alt="image" src="https://github.com/user-attachments/assets/cbaa64af-a6b2-465b-9180-23571318863f" />
 
 
 Data yang ditampilkan pada gambar di atas berdasarkan atribut yang dimiliki oleh class Pemasok, yaitu ID Pemasok, Nama Pemasok, No Telepon, dan Alamat Pemasok. Tampilan ini menunjukkan bahwa data yang sebelumnya ditambahkan telah berhasil tersimpan dan dapat ditampilkan kembali melalui fitur Read pada sistem.
 
--> Hapus Pemasok
+-> **Hapus Pemasok**
 
 <img width="300" alt="image" src="https://github.com/user-attachments/assets/75052612-66f8-49a0-86db-b84e9517bf04" />
 
 
--> Update Pemasok
+-> **Update Pemasok**
 
 <img width="300" alt="image" src="https://github.com/user-attachments/assets/7a56f8f4-d6e1-4491-8292-8361564103fc" />
 
@@ -178,7 +178,7 @@ Pada menu kelola data pengadaan, terdapat beberapa pilihan yang dapat dipilih ol
 
 Data pengadaan terdiri dari ID pengadaan, tanggal pengadaan, dan alamat pengadaan. Lalu, program juga melakukan validasi terhadap format tanggal pengadaan agar tanggal yang dimasukkan sesuai dengan format "DD/MM/YYYY".
 
--> Tambah Pengadaan
+-> **Tambah Pengadaan**
 
 <img width="300" alt="image" src="https://github.com/user-attachments/assets/6711edf2-5673-4d7f-9dcd-307aaeed24e9" />
 
@@ -194,17 +194,17 @@ Pada contoh gambar di atas, pengguna memasukkan data dengan ID Pengadaan 2, tang
 
 Setelah seluruh data berhasil dimasukkan, program menampilkan pesan "Pengadaan baru berhasil ditambahkan!" sebagai tanda bahwa data pengadaan berhasil disimpan ke dalam ArrayList.
 
--> Tampilkan Pengadaan
+-> **Tampilkan Pengadaan**
 
 <img width="300" alt="image" src="https://github.com/user-attachments/assets/6a830219-2eb1-4a66-86ee-835d4f118c2d" />
 
 Data pengadaan yang ditampilkan berdasarkan atribut yang dimiliki oleh class Pengadaan, yaitu ID Pengadaan, Tanggal Pengadaan, dan Alamat Pengadaan. Tampilan ini menunjukkan bahwa data pengadaan yang telah dimasukkan berhasil tersimpan dan dapat ditampilkan kembali melalui fitur Read pada sistem.
 
--> Hapus Pengadaan
+-> **Hapus Pengadaan**
 
 <img width="300" alt="image" src="https://github.com/user-attachments/assets/10389262-8c32-4bab-8ded-ff82f9239a1a" />
 
--> Update Pengadaan
+-> **Update Pengadaan**
 
 <img width="300" alt="image" src="https://github.com/user-attachments/assets/7fe9f4fa-7c91-4ae7-9a1c-136cc24d8b07" />
 
@@ -342,11 +342,37 @@ Dengan inheritance, kedua subclass dapat menggunakan atribut dan method yang ber
 
 Selain hierarchical inheritance, program juga menerapkan multilevel inheritance. Multilevel inheritance merupakan pewarisan yang dilakukan secara bertingkat, yaitu sebuah subclass menjadi superclass bagi class berikutnya. Pada program ini, struktur multilevel inheritance diterapkan pada class Barang, BarangElektronik, dan Laptop.
 
+### Multilevel Inheritance
+
+```mermaid
+classDiagram
+    Barang <|-- BarangElektronik
+    BarangElektronik <|-- Laptop
+
+    class Barang {
+        - idBarang
+        - nama
+        - stok
+    }
+
+    class BarangElektronik {
+        - garansi
+    }
+
+    class Laptop {
+        - processor
+    }
+```
+
+
+
 Class BarangElektronik merupakan subclass dari Barang, sedangkan class Laptop merupakan subclass dari BarangElektronik.
 
 Hubungan tersebut ditulis dalam program menggunakan;
 
 <img width="300" alt="image" src="https://github.com/user-attachments/assets/729e998b-7e96-48d6-b98c-f8bb8a4c1b52" />
+
+
 
 
 <img width="300" alt="image" src="https://github.com/user-attachments/assets/3d39ad5a-1ec3-4084-94ca-c16f164dc016" />
