@@ -67,6 +67,42 @@ Pada menu kelola data barang, terdapat beberapa pilihan yang dapat dipilih oleh 
 
 <img width="300" alt="image" src="https://github.com/user-attachments/assets/5c668b69-ff34-468e-8c91-8be7f50cf2d9" />
 
+
+-> Tambah Data Barang
+
+<img width="714" height="488" alt="image" src="https://github.com/user-attachments/assets/5227d506-e348-4eb9-a72b-0d37c0878d59" />
+
+
+
+
+Gambar di atas menunjukkan proses penambahan data barang pada program Sistem Manajemen Pengadaan CV MPK.
+
+Pada proses ini, pengguna diminta mengisi beberapa data barang, yaitu:
+
+1. ID Barang yang digunakan sebagai identitas unik barang.
+2. Nama Barang yang digunakan untuk memasukkan nama barang.
+3. Stok Barang yang digunakan untuk menentukan jumlah stok barang.
+4. Jenis Barang yang digunakan pengguna untuk dapat memilih:
+
+   - Barang Elektronik
+   - Barang Non-Elektronik
+
+5. Garansi yang digunakan untuk mengisi masa garansi pada barang elektronik.
+6. Jenis Barang Elektronik yang digunakan khusus untuk barang elektronik, lalu pengguna dapat memilih:
+
+   - Barang Elektronik
+   - Laptop
+
+7. Processor akan muncul ketika pengguna memilih jenis Laptop.
+
+Pada contoh gambar diatas, pengguna memasukkan barang dengan "ID 3", nama "Acer Aspire 7 Pro Gaming", stok "5", dan memilih jenis "Barang Elektronik". Selanjutnya pengguna memilih jenis "Laptop", kemudian memasukkan processor "Ryzen 9".
+
+Proses tersebut menunjukkan penerapan "inheritance multilevel", yaitu objek "Laptop" merupakan turunan dari "BarangElektronik", sedangkan "BarangElektronik" merupakan turunan dari "Barang". Dengan demikian, "Laptop" dapat mewarisi atribut dan method dari class di atasnya sekaligus memiliki atribut khusus seperti "processor".
+
+Setelah seluruh data berhasil dimasukkan, program menampilkan pesan "Barang baru berhasil ditambahkan!" sebagai tanda bahwa data telah berhasil disimpan ke dalam "ArrayList".
+
+-> Tampilkan Barang
+
 Lalu data barang terbagi ke dalam dua jenis yaitu;
 
 - Barang Elektronik
