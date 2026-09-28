@@ -135,7 +135,7 @@ Data pemasok terdiri dari ID pemasok, nama pemasok, alamat, dan nomor telepon.
 
 -> Tambah Pemasok
 
-<img width="300" height="264" alt="image" src="https://github.com/user-attachments/assets/2e88f801-c4ee-4c12-bd10-e5fc06e2a077" />
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/2e88f801-c4ee-4c12-bd10-e5fc06e2a077" />
 
 
 Gambar di atas menunjukkan proses penambahan data pemasok pada program Sistem Manajemen Pengadaan CV MPK.
@@ -153,19 +153,19 @@ Setelah seluruh data berhasil dimasukkan, program menampilkan pesan "Pemasok bar
 
 -> Tampilkan Pemasok
 
-<img width="300" height="297" alt="image" src="https://github.com/user-attachments/assets/cbaa64af-a6b2-465b-9180-23571318863f" />
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/cbaa64af-a6b2-465b-9180-23571318863f" />
 
 
 Data yang ditampilkan pada gambar di atas berdasarkan atribut yang dimiliki oleh class Pemasok, yaitu ID Pemasok, Nama Pemasok, No Telepon, dan Alamat Pemasok. Tampilan ini menunjukkan bahwa data yang sebelumnya ditambahkan telah berhasil tersimpan dan dapat ditampilkan kembali melalui fitur Read pada sistem.
 
 -> Hapus Pemasok
 
-<img width="300" height="167" alt="image" src="https://github.com/user-attachments/assets/75052612-66f8-49a0-86db-b84e9517bf04" />
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/75052612-66f8-49a0-86db-b84e9517bf04" />
 
 
 -> Update Pemasok
 
-<img width="300" height="220" alt="image" src="https://github.com/user-attachments/assets/7a56f8f4-d6e1-4491-8292-8361564103fc" />
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/7a56f8f4-d6e1-4491-8292-8361564103fc" />
 
 
 
@@ -180,6 +180,31 @@ Data pengadaan terdiri dari ID pengadaan, tanggal pengadaan, dan alamat pengadaa
 
 -> Tambah Pengadaan
 
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/6711edf2-5673-4d7f-9dcd-307aaeed24e9" />
+
+Gambar di atas menunjukkan proses penambahan data pengadaan pada program Sistem Manajemen Pengadaan CV MPK.
+
+Pada proses ini, pengguna diminta mengisi beberapa data pengadaan, yaitu:
+
+- ID Pengadaan yang digunakan sebagai identitas pengadaan.
+- Tanggal yang digunakan untuk mencatat tanggal dilakukannya pengadaan dengan format DD/MM/YYYY.
+- Alamat yang digunakan untuk mencatat lokasi atau alamat pengadaan.
+
+Pada contoh gambar di atas, pengguna memasukkan data dengan ID Pengadaan 2, tanggal 28/09/2026, dan alamat Tanah Grogot.
+
+Setelah seluruh data berhasil dimasukkan, program menampilkan pesan "Pengadaan baru berhasil ditambahkan!" sebagai tanda bahwa data pengadaan berhasil disimpan ke dalam ArrayList.
+
+-> Tampilkan Pengadaan
+
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/6a830219-2eb1-4a66-86ee-835d4f118c2d" />
+
+-> Hapus Pengadaan
+
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/10389262-8c32-4bab-8ded-ff82f9239a1a" />
+
+-> Update Pengadaan
+
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/7fe9f4fa-7c91-4ae7-9a1c-136cc24d8b07" />
 
 
 
