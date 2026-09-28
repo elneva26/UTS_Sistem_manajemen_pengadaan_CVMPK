@@ -120,7 +120,7 @@ Saat fitur tampilkan barang dijalankan, data barang akan secara otomatis dikelom
 <img width="300" alt="image" src="https://github.com/user-attachments/assets/bf5c8ecc-40ef-4a44-b3d7-50cfd6fd205a" />
 
 
--> Uodate Stok
+-> Update Stok
 
 <img width="300" alt="image" src="https://github.com/user-attachments/assets/ac601eea-f44a-44d4-ac6c-56a597507157" />
 
@@ -150,6 +150,25 @@ Pada proses ini, pengguna diminta mengisi beberapa data pemasok, yaitu:
 Pada contoh gambar, pengguna memasukkan data pemasok dengan ID 2, nama pemasok Computer XXI, alamat Bontang, dan nomor telepon 082278907685.
 
 Setelah seluruh data berhasil dimasukkan, program menampilkan pesan "Pemasok baru berhasil ditambahkan!" sebagai tanda bahwa data pemasok berhasil disimpan ke dalam ArrayList.
+
+-> Tampilkan Pemasok
+
+<img width="738" height="297" alt="image" src="https://github.com/user-attachments/assets/cbaa64af-a6b2-465b-9180-23571318863f" />
+
+
+Data yang ditampilkan pada gambar di atas berdasarkan atribut yang dimiliki oleh class Pemasok, yaitu ID Pemasok, Nama Pemasok, No Telepon, dan Alamat Pemasok. Tampilan ini menunjukkan bahwa data yang sebelumnya ditambahkan telah berhasil tersimpan dan dapat ditampilkan kembali melalui fitur Read pada sistem.
+
+-> Hapus Pemasok
+
+<img width="685" height="167" alt="image" src="https://github.com/user-attachments/assets/75052612-66f8-49a0-86db-b84e9517bf04" />
+
+
+-> Update Pemasok
+
+<img width="719" height="220" alt="image" src="https://github.com/user-attachments/assets/7a56f8f4-d6e1-4491-8292-8361564103fc" />
+
+
+
 
 ### **2.3 Kelola Data Pengadaan**
 
