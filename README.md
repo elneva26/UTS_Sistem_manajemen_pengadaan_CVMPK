@@ -135,7 +135,7 @@ Data pemasok terdiri dari ID pemasok, nama pemasok, alamat, dan nomor telepon.
 
 -> Tambah Pemasok
 
-<img width="820" height="264" alt="image" src="https://github.com/user-attachments/assets/2e88f801-c4ee-4c12-bd10-e5fc06e2a077" />
+<img width="300" height="264" alt="image" src="https://github.com/user-attachments/assets/2e88f801-c4ee-4c12-bd10-e5fc06e2a077" />
 
 
 Gambar di atas menunjukkan proses penambahan data pemasok pada program Sistem Manajemen Pengadaan CV MPK.
@@ -153,19 +153,19 @@ Setelah seluruh data berhasil dimasukkan, program menampilkan pesan "Pemasok bar
 
 -> Tampilkan Pemasok
 
-<img width="738" height="297" alt="image" src="https://github.com/user-attachments/assets/cbaa64af-a6b2-465b-9180-23571318863f" />
+<img width="300" height="297" alt="image" src="https://github.com/user-attachments/assets/cbaa64af-a6b2-465b-9180-23571318863f" />
 
 
 Data yang ditampilkan pada gambar di atas berdasarkan atribut yang dimiliki oleh class Pemasok, yaitu ID Pemasok, Nama Pemasok, No Telepon, dan Alamat Pemasok. Tampilan ini menunjukkan bahwa data yang sebelumnya ditambahkan telah berhasil tersimpan dan dapat ditampilkan kembali melalui fitur Read pada sistem.
 
 -> Hapus Pemasok
 
-<img width="685" height="167" alt="image" src="https://github.com/user-attachments/assets/75052612-66f8-49a0-86db-b84e9517bf04" />
+<img width="300" height="167" alt="image" src="https://github.com/user-attachments/assets/75052612-66f8-49a0-86db-b84e9517bf04" />
 
 
 -> Update Pemasok
 
-<img width="719" height="220" alt="image" src="https://github.com/user-attachments/assets/7a56f8f4-d6e1-4491-8292-8361564103fc" />
+<img width="300" height="220" alt="image" src="https://github.com/user-attachments/assets/7a56f8f4-d6e1-4491-8292-8361564103fc" />
 
 
 
@@ -177,6 +177,11 @@ Pada menu kelola data pengadaan, terdapat beberapa pilihan yang dapat dipilih ol
 <img width="300" alt="image" src="https://github.com/user-attachments/assets/78d01fd9-7039-4dc2-87a0-82e1075a1dba" />
 
 Data pengadaan terdiri dari ID pengadaan, tanggal pengadaan, dan alamat pengadaan. Lalu, program juga melakukan validasi terhadap format tanggal pengadaan agar tanggal yang dimasukkan sesuai dengan format "DD/MM/YYYY".
+
+-> Tambah Pengadaan
+
+
+
 
 ### **2.4 Keluar**
 
