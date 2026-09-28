@@ -414,7 +414,7 @@ Dengan adanya dummy data tersebut, pengguna tidak perlu melakukan input terlebih
 
 -----------------------------
 
-## **BAB VIII NILAI TAMBAH**
+## **BAB VIII MVC dan POLMORPHISM**
 
 ### **8.1 Struktur MVC**
 
