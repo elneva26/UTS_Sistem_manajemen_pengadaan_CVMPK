@@ -133,6 +133,24 @@ Pada menu kelola data pemasok, terdapat beberapa pilihan yang dapat dipilih oleh
 
 Data pemasok terdiri dari ID pemasok, nama pemasok, alamat, dan nomor telepon.
 
+-> Tambah Pemasok
+
+<img width="820" height="264" alt="image" src="https://github.com/user-attachments/assets/2e88f801-c4ee-4c12-bd10-e5fc06e2a077" />
+
+
+Gambar di atas menunjukkan proses penambahan data pemasok pada program Sistem Manajemen Pengadaan CV MPK.
+
+Pada proses ini, pengguna diminta mengisi beberapa data pemasok, yaitu:
+
+- ID Pemasok yang digunakan sebagai identitas unik pemasok.
+- Nama Pemasok yang  digunakan untuk memasukkan nama pemasok.
+- Alamat Pemasok yang digunakan untuk mencatat alamat pemasok.
+- No Telepon digunakan untuk mencatat nomor telepon pemasok.
+
+Pada contoh gambar, pengguna memasukkan data pemasok dengan ID 2, nama pemasok Computer XXI, alamat Bontang, dan nomor telepon 082278907685.
+
+Setelah seluruh data berhasil dimasukkan, program menampilkan pesan "Pemasok baru berhasil ditambahkan!" sebagai tanda bahwa data pemasok berhasil disimpan ke dalam ArrayList.
+
 ### **2.3 Kelola Data Pengadaan**
 
 Pada menu kelola data pengadaan, terdapat beberapa pilihan yang dapat dipilih oleh user yaitu;
