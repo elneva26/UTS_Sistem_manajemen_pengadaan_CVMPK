@@ -296,6 +296,8 @@ Dengan demikian, data tidak diakses secara langsung tetapi melalui getter dan se
 
 ## **BAB VI INHERITANCE**
 
+### **6.1 Hierarchical Inheritance**
+
 Inheritance diterapkan dengan menggunakan class Barang sebagai superclass dan dua subclass, yaitu:
 
                     Barang
@@ -334,6 +336,25 @@ Kemudian masing-masing subclass memiliki atribut khusus, yaitu;
 
 
 Dengan inheritance, kedua subclass dapat menggunakan atribut dan method yang berasal dari superclass Barang.
+
+
+**6.2 Multilevel Inheritance**
+
+Selain hierarchical inheritance, program juga menerapkan multilevel inheritance. Multilevel inheritance merupakan pewarisan yang dilakukan secara bertingkat, yaitu sebuah subclass menjadi superclass bagi class berikutnya. Pada program ini, struktur multilevel inheritance diterapkan pada class Barang, BarangElektronik, dan Laptop.
+
+Class BarangElektronik merupakan subclass dari Barang, sedangkan class Laptop merupakan subclass dari BarangElektronik.
+
+Hubungan tersebut ditulis dalam program menggunakan;
+
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/729e998b-7e96-48d6-b98c-f8bb8a4c1b52" />
+
+
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/3d39ad5a-1ec3-4084-94ca-c16f164dc016" />
+
+
+Dengan demikian, objek dari class Laptop dapat menggunakan atribut dan method yang diwariskan dari BarangElektronik, sekaligus atribut dan method yang berasal dari Barang.
+Dengan adanya penerapan kedua tipe inheritance tersebut membuat struktur class menjadi lebih terorganisir karena atribut yang bersifat umum dapat ditempatkan pada superclass, sedangkan atribut yang lebih spesifik dapat ditambahkan pada subclass sesuai jenis barang.
+
 
 -----------------------------------
 
