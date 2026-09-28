@@ -198,6 +198,8 @@ Setelah seluruh data berhasil dimasukkan, program menampilkan pesan "Pengadaan b
 
 <img width="300" alt="image" src="https://github.com/user-attachments/assets/6a830219-2eb1-4a66-86ee-835d4f118c2d" />
 
+Data pengadaan yang ditampilkan berdasarkan atribut yang dimiliki oleh class Pengadaan, yaitu ID Pengadaan, Tanggal Pengadaan, dan Alamat Pengadaan. Tampilan ini menunjukkan bahwa data pengadaan yang telah dimasukkan berhasil tersimpan dan dapat ditampilkan kembali melalui fitur Read pada sistem.
+
 -> Hapus Pengadaan
 
 <img width="300" alt="image" src="https://github.com/user-attachments/assets/10389262-8c32-4bab-8ded-ff82f9239a1a" />
